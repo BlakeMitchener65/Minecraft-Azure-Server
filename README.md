@@ -2,29 +2,29 @@
 
 
 
-Portfolio Project: Minecraft server deployed on Azure with Infrastructure as Code
+Portfolio Project: Minecraft server deployed on Azure with Infrastructure as Code.
 
 
 
-\## **Infrastructure**
+\## Infrastructure
 
-\--Set up resource group  `RG\_Minecraft`
+\- Set up resource group `RG-Minecraft`
 
-\--Deployed Linux (ubuntu 24.04) On  `Standard B2ls v2` (2 vcpus, 4 GiB memory) Virtual Machine  (`VM\_Minecraft`)
+\- Deployed Ubuntu 24.04 LTS on `Standard B2ls v2` (2 vCPU, 4 GiB RAM) — VM named `VM-Minecraft`
 
-\--Configured NSG inbound rules: SSH (22) and Minecrafts(25565/TCP)
+\- Configured NSG inbound rules: `SSH (22)` and `Minecraft (25565/TCP)`
 
-\--Generated SSH key pair for secure access
+\- Generated SSH key pair for secure access
 
 
 
-\## **Sever Setup**
+\## Server Setup
 
-\-- SSH'd into the VM from my local machine via Git Bash
+\- SSH'd into the VM from my local machine via Git Bash
 
-\-- Updated and Upgraded Ubuntu (`apt update \&\& apt upgrade`)
+\- Updated and upgraded Ubuntu packages (`apt update \&\& apt upgrade`)
 
-\-- Installed Docker via the official install script
+\- Installed Docker via the official install script
 
-\--Added userIDs to docker for non-sudo access 
+\- Added user to the `docker` group for non-sudo access
 
