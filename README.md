@@ -10,7 +10,7 @@ Portfolio Project: Minecraft server deployed on Azure with Infrastructure as Cod
 
 \- Set up resource group `RG-Minecraft`
 
-\- Deployed Ubuntu 24.04 LTS on `Standard B2ls v2` (2 vCPU, 4 GiB RAM) — VM named `VM-Minecraft`
+\- Deployed Ubuntu 24.04 LTS on (`Standard B2ls v2, 2 vCPU, 4 GiB RAM`) — VM named `VM-Minecraft`
 
 \- Configured NSG inbound rules: `SSH (22)` and `Minecraft (25565/TCP)`
 
